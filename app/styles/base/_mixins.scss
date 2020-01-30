@@ -1,0 +1,19 @@
+@mixin  Text_Upper_Gothic {
+    text-transform: uppercase;
+    font-family: "League Gothic";
+    font-weight: 400;
+}
+@mixin  Text_Gothic {
+    font-family: "League Gothic";
+    font-weight: 400;
+}
+@mixin Justify_Space_Between{
+    display: flex;
+    justify-content: space-between;
+}
+@mixin backgr_temp{
+    background-position-x: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
